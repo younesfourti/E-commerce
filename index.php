@@ -31,7 +31,19 @@
        text-align:center;
        color:black;
     }
-
+    .minitextetitre{
+      position:relative; 
+      font-size: 40px;
+      margin-right:45px;
+       text-align:center;
+       color:black;
+      }
+   .minitextepresentation{
+    position:relative; 
+      font-size: 30px;
+       text-align:center;
+       color:black;
+   }
     .block{
       position:relative; 
       top:600px;
@@ -61,6 +73,35 @@
        margin-left:10%;
      }
 
+     /* partis2 */
+     .partis2block{
+      position:relative; 
+      top:50px;
+    }
+    .partis2image2{
+      background:url("public/assets/img/canon_eos.jpg") no-repeat center fixed;
+      background-size: cover;
+      width: 100%;
+      height: 35rem;
+      margin: 0;
+      padding: 0;
+      
+    }
+    .partis2block2{
+       
+      margin-top:500px;
+      margin-left:10%;
+    }
+    .partis2block3{
+       
+       margin-top:640px;
+       margin-left:10%;
+     }
+     .partis2blockx{
+       
+      margin-top:50px;
+       margin-left:10%;
+     }
   </style>
 <div class="image">
 
@@ -95,10 +136,9 @@
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="minitextetitre">Adaptateurs EOS R</h5>
         <img src="public\assets\img\adaptors_318365189665423.jpg " style="max-width: 400px; position: relative;left:250px;">
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <p class="minitextepresentation">TUtilisez vos objectifs EF et EF-S existants avec le nouvel appareil photo EOS R et repoussez les limites de votre créativité.</p>
       </div>
     </div>
   </div>
@@ -110,14 +150,13 @@
   <div class="block3" style="max-width: 1500px;  background-color:rgb(245,246,246");>
   <div class="row no-gutters">
     <div class="col-md-4">
-      <img src="public\assets\img\zebre.jpg" class="card-img" alt="...">
+      <img src="public\assets\img\canon-lenses-by-type-ef-s.jpg" class="card-img" alt="...">
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <img src="public\assets\img\adaptors_318365189665423.jpg " style="max-width: 400px; position: relative;left:250px;">
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <h5 class="minitextetitre">EF-S</h5>
+        <img src="public\assets\img\gamme ef-s.jpg" style="max-width: 400px; position: relative;left:250px;">
+        <p class="minitextepresentation">Des objectifs légers, offrant de superbes prises de vue aux appareils photo reflex avec capteurs APS-C.</p>
       </div>
     </div>
   </div>
@@ -128,14 +167,13 @@
 <div class="blockx" style="max-width: 1500px;  background-color:rgb(245,246,246");>
   <div class="row no-gutters">
     <div class="col-md-4">
-      <img src="public\assets\img\zebre.jpg" class="card-img" alt="...">
+      <img src="public\assets\img\canon-lenses-by-type-ef-m.jpg" class="card-img" alt="...">
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <img src="public\assets\img\adaptors_318365189665423.jpg " style="max-width: 400px; position: relative;left:250px;">
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <h5 class="minitextetitre">EF-M</h5>
+        <img src="public\assets\img\ef-m.jpg" style="max-width: 400px; position: relative;left:250px;">
+        <p class="minitextepresentation">Des objectifs légers et portables conçus exclusivement pour les appareils photo EOS M.</p>
       </div>
     </div>
   </div>
@@ -147,14 +185,13 @@
   <div class="blockx" style="max-width: 1500px;  background-color:rgb(245,246,246");>
   <div class="row no-gutters">
     <div class="col-md-4">
-      <img src="public\assets\img\zebre.jpg" class="card-img" alt="...">
+      <img src="public\assets\img\canon-lenses-by-type-ef-fixed-focal-length.jpg" class="card-img" alt="...">
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <img src="public\assets\img\adaptors_318365189665423.jpg " style="max-width: 400px; position: relative;left:250px;">
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <h5 class="minitextetitre">Focale fixe EF</h5>
+        <img src="public\assets\img\gamme focal fix ef.jpg " style="max-width: 400px; position: relative;left:250px;">
+        <p class="minitextepresentation">Des objectifs associant qualité d'image, taille compacte et grandes ouvertures maximales.</p>
       </div>
     </div>
   </div>
@@ -162,6 +199,85 @@
 </div>
 </div>
 
+<!-- partis2 -->
+
+<div class="partis2block">
+<div class="partis2image2">
+
+  <div>
+     <h1 style="position:relative;top:200px;text-align:center;font-size:40px;color:white;">Objectifs RF</h1>
+    <p style="position:relative;top:280px;text-align:center;font-size:30px;color:white;">Des objectifs rapides et des niveaux de clarté optique inégalés garantis avec le système EOS R.</p>
+    
+    </div>
+  <div class="partis2block2" style="max-width: 1500px;  background-color:rgb(245,246,246");>
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="public\assets\img\canon-lenses-by-type-ef-zoom.jpg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="minitextetitre">Zoom EF</h5>
+        <img src="public\assets\img\Zoom_317348669854370.jpg" style="max-width: 400px; position: relative;left:250px;">
+        <p class="minitextepresentation">Des objectifs permettant de changer de cadrage en tournant simplement la bague de zoom.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+
+  <div class="partis2block3" style="max-width: 1500px;  background-color:rgb(245,246,246");>
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="public\assets\img\canon-lenses-by-type-macro.jpg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="minitextetitre">Macro</h5>
+        <img src="public\assets\img\Macro_168733072721902.jpg" style="max-width: 400px; position: relative;left:250px;">
+        <p class="minitextepresentation">Conçu pour révéler les moindres détails - Parfait pour photographier les fleurs et les insectes.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+
+<div class="partis2blockx" style="max-width: 1500px;  background-color:rgb(245,246,246");>
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="public\assets\img\canon-lenses-by-type-tilt-shift.jpg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="minitextetitre">Bascule et décentrement</h5>
+        <img src="public\assets\img\Tilt-Shift_172194903893890.jpg" style="max-width: 400px; position: relative;left:250px;">
+        <p class="minitextepresentation">Contrôlez votre perspective et votre plan focal grâce à ces objectifs spécialisés.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+
+  <div class="partis2blockx" style="max-width: 1500px;  background-color:rgb(245,246,246");>
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="public\assets\img\canon-lenses-by-type-extenders.jpg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="minitextetitre">Multiplicateurs de focale</h5>
+        <img src="public\assets\img\Extenders_158628571845866.jpg" style="max-width: 400px; position: relative;left:250px;">
+        <p class="minitextepresentation">Augmentez la portée de votre objectif et rapprochez-vous de votre sujet.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
  
 
 
