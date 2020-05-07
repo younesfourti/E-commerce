@@ -58,7 +58,7 @@
       
     }
     .block2{
-       
+      
       margin-top:550px;
       margin-left:10%;
     }
@@ -72,7 +72,12 @@
       margin-top:50px;
        margin-left:10%;
      }
-
+    
+     .positionboutant{
+      position:relative;
+      left:370px;
+      
+     }
      /* partis2 */
      .partis2block{
       position:relative; 
@@ -138,7 +143,8 @@
       <div class="card-body">
         <h5 class="minitextetitre">Adaptateurs EOS R</h5>
         <img src="public\assets\img\adaptors_318365189665423.jpg " style="max-width: 400px; position: relative;left:250px;">
-        <p class="minitextepresentation">TUtilisez vos objectifs EF et EF-S existants avec le nouvel appareil photo EOS R et repoussez les limites de votre créativité.</p>
+        <p class="minitextepresentation">Utilisez vos objectifs EF et EF-S existants avec le nouvel appareil photo EOS R et repoussez les limites de votre créativité.</p>
+        <button type="button" class="btn btn-primary btn-lg positionboutant">Voir la gamme</button>
       </div>
     </div>
   </div>
@@ -146,7 +152,8 @@
 </div>
 </div>
 </div>
-
+<br>
+<br>
   <div class="block3" style="max-width: 1500px;  background-color:rgb(245,246,246");>
   <div class="row no-gutters">
     <div class="col-md-4">
@@ -157,6 +164,7 @@
         <h5 class="minitextetitre">EF-S</h5>
         <img src="public\assets\img\gamme ef-s.jpg" style="max-width: 400px; position: relative;left:250px;">
         <p class="minitextepresentation">Des objectifs légers, offrant de superbes prises de vue aux appareils photo reflex avec capteurs APS-C.</p>
+        <button type="button" class="btn btn-primary btn-lg   positionboutant">Voir la gamme</button>
       </div>
     </div>
   </div>
@@ -174,6 +182,7 @@
         <h5 class="minitextetitre">EF-M</h5>
         <img src="public\assets\img\ef-m.jpg" style="max-width: 400px; position: relative;left:250px;">
         <p class="minitextepresentation">Des objectifs légers et portables conçus exclusivement pour les appareils photo EOS M.</p>
+        <button type="button" class="btn btn-primary btn-lg positionboutant">Voir la gamme</button>
       </div>
     </div>
   </div>
@@ -192,6 +201,7 @@
         <h5 class="minitextetitre">Focale fixe EF</h5>
         <img src="public\assets\img\gamme focal fix ef.jpg " style="max-width: 400px; position: relative;left:250px;">
         <p class="minitextepresentation">Des objectifs associant qualité d'image, taille compacte et grandes ouvertures maximales.</p>
+        <button type="button" class="btn btn-primary btn-lg positionboutant">Voir la gamme</button>
       </div>
     </div>
   </div>
@@ -219,6 +229,7 @@
         <h5 class="minitextetitre">Zoom EF</h5>
         <img src="public\assets\img\Zoom_317348669854370.jpg" style="max-width: 400px; position: relative;left:250px;">
         <p class="minitextepresentation">Des objectifs permettant de changer de cadrage en tournant simplement la bague de zoom.</p>
+        <button type="button" class="btn btn-primary btn-lg positionboutant">Voir la gamme</button>
       </div>
     </div>
   </div>
@@ -237,6 +248,7 @@
         <h5 class="minitextetitre">Macro</h5>
         <img src="public\assets\img\Macro_168733072721902.jpg" style="max-width: 400px; position: relative;left:250px;">
         <p class="minitextepresentation">Conçu pour révéler les moindres détails - Parfait pour photographier les fleurs et les insectes.</p>
+        <button type="button" class="btn btn-primary btn-lg positionboutant">Voir la gamme</button>
       </div>
     </div>
   </div>
@@ -254,6 +266,7 @@
         <h5 class="minitextetitre">Bascule et décentrement</h5>
         <img src="public\assets\img\Tilt-Shift_172194903893890.jpg" style="max-width: 400px; position: relative;left:250px;">
         <p class="minitextepresentation">Contrôlez votre perspective et votre plan focal grâce à ces objectifs spécialisés.</p>
+        <button type="button" class="btn btn-primary btn-lg positionboutant">Voir la gamme</button>
       </div>
     </div>
   </div>
@@ -272,6 +285,7 @@
         <h5 class="minitextetitre">Multiplicateurs de focale</h5>
         <img src="public\assets\img\Extenders_158628571845866.jpg" style="max-width: 400px; position: relative;left:250px;">
         <p class="minitextepresentation">Augmentez la portée de votre objectif et rapprochez-vous de votre sujet.</p>
+        <button type="button" class="btn btn-primary btn-lg positionboutant">Voir la gamme</button>
       </div>
     </div>
   </div>
@@ -280,6 +294,45 @@
 </div>
  
 
+<!-- footer -->
+<footer class="pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+      <div class="col-12 col-md">
+        <img class="mb-2" src="public\assets\img\logo-rougepointpetits-0blanc.jpg" style="position: relative;top:-20px; width="225" height="225">
+        <small class="d-block mb-3 text-muted" style="position: relative;top:-20px;left:60px;">2020-2020</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Features</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Cool stuff</a></li>
+          <li><a class="text-muted" href="#">Random feature</a></li>
+          <li><a class="text-muted" href="#">Team feature</a></li>
+          <li><a class="text-muted" href="#">Stuff for developers</a></li>
+          <li><a class="text-muted" href="#">Another one</a></li>
+          <li><a class="text-muted" href="#">Last time</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Resources</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Resource</a></li>
+          <li><a class="text-muted" href="#">Resource name</a></li>
+          <li><a class="text-muted" href="#">Another resource</a></li>
+          <li><a class="text-muted" href="#">Final resource</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>About</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Team</a></li>
+          <li><a class="text-muted" href="#">Locations</a></li>
+          <li><a class="text-muted" href="#">Privacy</a></li>
+          <li><a class="text-muted" href="#">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</div>
 
 
 </body>
