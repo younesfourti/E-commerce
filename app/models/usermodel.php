@@ -3,10 +3,13 @@ class usermodel extends Model{
 
 public function Subscribe(){
     $this->getConnection();
-    $_POST['nom']=$nom;
+    $a=$this->_connexion; 
+     $nom = $_POST['nom'];
     $sql = "UPDATE `testeupdate` SET `nom`='$nom'";
-    $query = $this->_connexion->prepare($sql);
-    $query->execute();
+    $executer = $a->prepare($sql);
+    echo $sql;
+    $executer->execute();
+    
 
 
 }

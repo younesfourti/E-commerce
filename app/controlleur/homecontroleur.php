@@ -1,23 +1,37 @@
 <?php
+ print_r($_GET);
+//  $a=$_GET['nom'];
+ ?>
 
-class home extends Controller{
+
+
+<?php
+// require_once('defaultcontroleur.php');
+class home extends Controller {
 
     public function index(){
         
-        
+         
         $this->render('teste');
         
     }
 
     public function Subscribe(){
+   
+     
         $this->render('Subscribe');
-
-        $articles = $this->usemodel->Subscribe($_POST['nom']);
-
-
         $this->loadModel('usermodel');
+        echo ('afichage controleur    ') ; 
+        var_dump($_POST);
+        $this->usermodel->Subscribe($_POST);
+
         
-      
+
+        
+        
+
+        
+
     }
 
 }
