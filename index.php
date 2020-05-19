@@ -110,7 +110,7 @@
   </style>
 <div class="image">
 
-  <?php include_once '\app\Views\navtohome.html';?>
+  <?php include_once 'app\Views\navtohome.html';?>
 
   <div>
     <p style="position:relative;top:100px;text-align:center;font-size:70px;color:white;">Rechercher par type d'objectif</p>
