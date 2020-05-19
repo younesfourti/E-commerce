@@ -143,7 +143,7 @@
                 </div>
             </div>
             <hr class="mb-4" style=position:relative;left:-200px;>
-            <button class="btn btn-primary btn-lg btn-block" type="submit" style=position:relative;left:-200px; href="home">valider l'inscription</button>
+            <button class="btn btn-primary btn-lg btn-block" type="submit" style=position:relative;left:-200px;>valider l'inscription</button>
             </form>
            
         </div>

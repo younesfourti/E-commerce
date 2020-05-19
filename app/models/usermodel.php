@@ -2,6 +2,7 @@
 class usermodel extends Model{
     
 public function Subscribe(){
+    var_dump($_GET['p']); 
     // connxion a la base 
     $this->getConnection();
     $a=$this->_connexion; 
@@ -20,32 +21,58 @@ if (count($_POST) > 0){
     $sex= $_POST['sex'];
 
 
-// verification si le mai existe deja 
-					$reqmail = $a->prepare("SELECT * FROM compte WHERE mail = ?");
-					$reqmail->execute(array($mail));
-                    $result=$reqmail->rowCount();
-                    echo $result;
-                    if($result == 0){       
-                        if($mdp == $mdp2)
-						{
-						// si c est bon bah on inscris l etulisateur 
-							$insertmbr = $a->prepare("INSERT INTO compte (lastname,firstname,email,password,adresse,country,lang,sex,zip) VALUES( ?, ?, ?, ?, ?, ?, ?, ?, ?)");
-							$insertmbr->execute(array($nom, $prenom, $mail, $mdp, $adr, $conty, $lang, $zip, $sex));
-							$erreur = "Votre compte a bien été créer";	
-                        }else{
-                            $this->render('motdepassenonidentic'); 
-                        }
+  
+     
+    
+
+
+
+
+if(filter_var($mail,FILTER_VALIDATE_EMAIL))
+{
+    // verification si le mai existe deja 
+    $reqmail = $a->prepare("SELECT * FROM compte WHERE email = ?");
+    $reqmail-> execute(array($mail));
+    $mailexist = $reqmail->rowCount();
+    var_dump($mailexist);
+
+    if($mailexist == 0)
+    {
+        if($mdp == $mdp2)
+        {
+        // si c est bon bah on inscris l etulisateur 
+            $insertmbr = $a->prepare("INSERT INTO compte (lastname,firstname,email,password,adresse,country,lang,sex,zip) VALUES( ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+            $insertmbr->execute(array($nom, $prenom, $mail, $mdp, $adr, $conty, $lang, $zip, $sex));
+            
+            echo "<script type='text/javascript'>document.location.replace('http://localhost/E-commerce/');</script>";
+
+        }else{
+            $this->render('motdepassenonidentic'); 
+        }
+   
+                    
+                    
+                          
+                      
 						
 						
 					}
 					else
 					{
-                        // a rendre le message plus beau 
-                        $this->render('mailexiste'); 
-					}
+                       
+                     // a rendre le message plus beau 
+                     $this->render('mailexiste');    
+					
 }
-}
-    
+
+ 
 
 
+}
+else{
+    $this->render('mailok');  
+
+}
+}
+}
 }

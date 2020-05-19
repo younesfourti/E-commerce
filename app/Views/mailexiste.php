@@ -4,7 +4,7 @@
 .message{
     position: relative;
     top: -67%;
-    left: 40% ; 
+    left: 5% ;  
     color: red;
     font-size: 14px;
 }

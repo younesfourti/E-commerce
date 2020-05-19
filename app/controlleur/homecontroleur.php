@@ -3,6 +3,7 @@
 
 
 <?php
+session_start();
 // require_once('defaultcontroleur.php');
 class home extends Controller {
 
@@ -21,7 +22,7 @@ class home extends Controller {
      $this->loadModel('usermodel');
      
     $this->usermodel->Subscribe($_POST);
-        
+       
         
 
         

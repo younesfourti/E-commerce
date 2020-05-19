@@ -13,7 +13,7 @@
 
 	
 		
-        <h1 class="message"> Vos mots de passe ne sont pas identiques pas de chance il faut recomencer  </h1>
+        <h1 class="message"> le mail exite deja  dois resembler a xxx@gmail.comm/ xxx@yahoo/ etc...  </h1>
 		
 		
 		
