@@ -1,8 +1,4 @@
-<?php
- print_r($_GET);
- print_r($_POST);
-//  $a=$_GET['nom'];
- ?>
+
 
 
 
@@ -13,17 +9,19 @@ class home extends Controller {
     public function index(){
         
          
-        $this->render('teste');
+        $this->render('home');
         
     }
 
     public function Subscribe(){
-   
      
-        $this->render('Subscribe');
-        $this->loadModel('usermodel');
-        $this->usermodel->Subscribe($_POST);
 
+     
+     $this->render('Subscribe');      
+     $this->loadModel('usermodel');
+     
+    $this->usermodel->Subscribe($_POST);
+        
         
 
         

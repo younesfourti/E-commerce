@@ -1,8 +1,8 @@
 <?php
-abstract class Model{
+abstract class Model extends Controller{
     // Informations de la base de données
     private $host = "localhost";
-    private $db_name = "test";
+    private $db_name = "lensshop";
     private $username = "root";
     private $password = "";
      
