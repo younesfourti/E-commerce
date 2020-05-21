@@ -16,7 +16,7 @@
   <header class="blog-header py-3">
     <div class="row flex-nowrap justify-content-between align-items-center">
       <div class="col-4 pt-1">
-        <a class="btn btn-sm btn-outline-secondary" href="app\Views\Subscribe.php">inscription</a>
+        <a class="btn btn-sm btn-outline-secondary" href="home/Subscribe">inscription</a>
       </div>
       <div class="col-4 text-center">
         <p style= color:white;font-size:30px;>LensShop</p>
@@ -43,6 +43,6 @@
       <a class="p-2 text-muted" href="#">Science</a>
       <a class="p-2 text-muted" href="#">Health</a>
       <a class="p-2 text-muted" href="#">Style</a>
-      <a class="p-2 text-muted" href="#">Travel</a>
+      <a class="p-2 text-muted" href="boutique/article">boutique</a>
     </nav>
   </div>
