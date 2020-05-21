@@ -1,6 +1,7 @@
 <?php
 
 
+
 // On génère une constante contenant le chemin vers la racine publique du projet
 define('ROOT', str_replace('index.php','',$_SERVER['SCRIPT_FILENAME']));
 // On appelle le modèle et le contrôleur principaux
