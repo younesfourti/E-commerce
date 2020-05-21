@@ -1,8 +1,15 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
 
 <html lang="en">
 
@@ -21,8 +28,9 @@
     <header class="monheader">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">LensShop</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -31,9 +39,10 @@
                         <a class="nav-link" href="#">Accueil</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Boutique
-                  </a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Boutique
+                        </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#">Action</a>
                             <a class="dropdown-item" href="#">Another action</a>
@@ -154,103 +163,25 @@
         <!-- CATEGORIE APPAREIL -->
         <div class="emplacementappareilphoto">
 
-
+        
             <section class="container-fluid">
                 <h1 class="TitreSection">RECHERCHER PAR TYPE D'APPAREIL PHOTO</h1>
                 <article class="container sliderarticle row">
-
-                    <a href="" class="divproduit">
-                        <img class="imgproduit" src="../public\assets\images\banniere1.png">
-                        <h2 class="titreproduit"> D3500</h2>
-                        <p class="stockBoutique">En stock</p>
-                        <p class="description"> Kit avec zoom polyvalent, idéal pour la photographie au quotidien. Comprend l'appareil photo D3500 et le zoom compact AF-P DX.</p>
-                        <p class="prixBoutique">399,00 €</p>
-                    </a>
-
-                    <a href="" class="divproduit">
-                        <img class="imgproduit" src="../public\assets\images\blanc.jpg">
-                        <h2 class="titreproduit"> D760</h2>
-                        <p class="stockBoutique">En stock</p>
-                        <p class="description"> Libérez votre créativité grâce au D750, un appareil rapide, polyvalent et réactifce,bijou technologique plein écran de 24,3 millions de pixels .</p>
-                        <p class="prixBoutique">1 399,00 €</p>
-                    </a>
-
-                    <a href="" class="divproduit">
-                        <img class="imgproduit" src="../public\assets\images\rose.jpg">
-                        <h2 class="titreproduit"> D7500</h2>
-                        <p class="stockBoutique">En stock</p>
-                        <p class="description"> La recherche de l'image parfaite peut vous conduire n'importe où. Emportez avec vous le D7500 puissant, réactif et entièrement connecté. </p>
-                        <p class="prixBoutique">1 000,00 €</p>
-                    </a>
-
-                </article>
-            </section>
-        </div>
-        <div class="emplacementappareilphoto2">
-
-
-            <section class="container-fluid">
-
-                <article class="container sliderarticle row">
-
-                    <a href="" class="divproduit">
-                        <img class="imgproduit" src="../public\assets\images/noir.jpg">
-                        <h2 class="titreproduit"> Df </h2>
-                        <p class="stockBoutique">En stock</p>
-                        <p class="description"> Avec son design rétro et le même capteur CMOS au format FX de 16,2 millions de pixels que le D4 emblématique de Nikonracontez vos histoires avec de superbes photos détaillées et des films Full HD.</p>
-                        <p class="prixBoutique">2 699,00 €</p>
-                    </a>
-
-                    <a href="" class="divproduit">
-                        <img class="imgproduit" src="../public\assets\images/rouge.jpg">
-                        <h2 class="titreproduit"> Pack Hybride Canon EOS M50 Noir</h2>
-                        <p class="stockBoutique">En stock</p>
-                        <p class="description"> OS M50 METTEZ VOS HISTOIRES EN VALEUR Cet appareil photo hybride vous incitera à créer des histoires que vous serez fier de partager grâce à des technologies comme la vidéo 4K.</p>
-                        <p class="prixBoutique">3 899,00 €</p>
-                    </a>
-                    <a href="" class="divproduit">
-                        <img class="imgproduit" src="../public\assets\images/katia.jpg">
-                        <h2 class="titreproduit"> Reflex Canon EOS 2000D Noir + Objectif EF-S</h2>
-                        <p class="stockBoutique">En stock</p>
-                        <p class="description"> EOS 2000D CHOISISSEZ LA QUALITÉ REFLEX POUR MIEUX RACONTER EN IMAGES Avec le Canon EOS 2000D 24,1 millions de pixels Prenez de splendides photos et films avec effet de flou.</p>
-                        <p class="prixBoutique">369,99 €</p>
-                    </a>
+                     <?php  foreach($article as $article): ?>
+                                <a href="http://localhost/E-commerce/boutique/lire/<?= $article['idarticle']?>" class="divproduit">
+                                    <img class="imgproduit" src="<?=$article['photo']?>">
+                                    <h2 class="titreproduit"> <?= $article['titre'] ?></h2>
+                                    <p class="stockBoutique">En stock</p>
+                                    <p class="description"><?= $article['descri'] ?></p>
+                                    <p class="prixBoutique"><?= $article['prix'] ?></p>
+                                </a>
+                    <?php endforeach ?>
 
                 </article>
             </section>
         </div>
 
-        <div class="emplacementappareilphoto3">
-            <section class="container-fluid">
-                <article class="container sliderarticle row">
-
-                    <a href="" class="divproduit">
-                        <img class="imgproduit" src="../public\assets\images/obj1.jpg">
-                        <h2 class="titreproduit"> Objectif Canon EF 16-35mm f/2.8L III USM </h2>
-                        <p class="stockBoutique">En stock</p>
-                        <p class="description"> Un objectif ultra grand-angle de la série L avec un ensemble de distances focales idéal pour les photos d'architecture et de paysages.</p>
-                        <p class="prixBoutique">2 199,99 €</p>
-                    </a>
-
-                    <a href="" class="divproduit">
-                        <img class="imgproduit" src="../public\assets\images/obj2.jpg">
-                        <h2 class="titreproduit"> PANASONIC Objectif Lumix G Vario 12-60mm</h2>
-                        <p class="stockBoutique">En stock</p>
-                        <p class="description"> zoom trans standard stabilisé compatible Micro 4/3 (focale équivalente : 24-120 mm) - filtre diamètre : 58 mm - poids : 210 g - paresoleil.</p>
-                        <p class="prixBoutique">329,90 €</p>
-                    </a>
-                    <a href="" class="divproduit">
-                        <img class="imgproduit" src="../public\assets\images/obj3.jpg">
-                        <h2 class="titreproduit"> PANASONIC Objectif Lumix G Vario 14-140mm</h2>
-                        <p class="stockBoutique">En stock</p>
-                        <p class="description"> zoom polyvalent stabilisé compatible Micro 4/3 (focale équivalente : 28-280 mm) - filtre diamètre : 58 mm - poids : 265g,Composée de 14 éléments en 12 groupes.</p>
-                        <p class="prixBoutique">369,99 €</p>
-                    </a>
-
-                </article>
-            </section>
-        </div>
-
+       
 
         <div class="newletter container-fluid">
 
@@ -275,18 +206,30 @@
                     <div class="col">
                         <h6> Adipisicing : elit. Ipsa vol sectetur adipisicing elit. Ipsa vol</h6>
                         <p>
-                            Lorem ipsum dolor sisectetur adipisicing elit. Ipsa voltetur adipisicing elit. Ipsa voluptatum commodi ea eum itaque nesciunt sunt quasi architecto quidem, hic fugit pariatur alias error minus deleniti dolorem nemo, maxime dolor. Lorem ipsum dolor sit
-                            amet consectetur, adipisicing elit. At maiores explicabo quibusdam, reiciendis minus harum similique itaque molestiae voluptatem doloremque sequi accusamus voluptatibus quia nam et, quas non earum. Similique? Lorem ipsum dolor
-                            sit amet consectetur adipisicing elit. Magnam praesentium dignissimos, aperiam eos hic atque est aliquam obcaecati? Aperiam facere ex alias debitis voluptates officiis delectus nesciunt praesentium, nihil quaerat.
+                            Lorem ipsum dolor sisectetur adipisicing elit. Ipsa voltetur adipisicing elit. Ipsa
+                            voluptatum commodi ea eum itaque nesciunt sunt quasi architecto quidem, hic fugit pariatur
+                            alias error minus deleniti dolorem nemo, maxime dolor. Lorem ipsum dolor sit
+                            amet consectetur, adipisicing elit. At maiores explicabo quibusdam, reiciendis minus harum
+                            similique itaque molestiae voluptatem doloremque sequi accusamus voluptatibus quia nam et,
+                            quas non earum. Similique? Lorem ipsum dolor
+                            sit amet consectetur adipisicing elit. Magnam praesentium dignissimos, aperiam eos hic atque
+                            est aliquam obcaecati? Aperiam facere ex alias debitis voluptates officiis delectus nesciunt
+                            praesentium, nihil quaerat.
                         </p>
                     </div>
 
                     <div class="col">
                         <h6> Adipisicing : elit. Ipsa vol sectetur adipisicing elit. Ipsa vol</h6>
                         <p>
-                            Lorem ipsum dolor sisectetur adipisicing elit. Ipsa voltetur adipisicing elit. Ipsa voluptatum commodi ea eum itaque nesciunt sunt quasi architecto quidem, hic fugit pariatur alias error minus deleniti dolorem nemo, maxime dolor. Lorem ipsum dolor sit
-                            amet consectetur, adipisicing elit. At maiores explicabo quibusdam, reiciendis minus harum similique itaque molestiae voluptatem doloremque sequi accusamus voluptatibus quia nam et, quas non earum. Similique? Lorem ipsum dolor
-                            sit amet consectetur adipisicing elit. Magnam praesentium dignissimos, aperiam eos hic atque est aliquam obcaecati? Aperiam facere ex alias debitis voluptates officiis delectus nesciunt praesentium, nihil quaerat.
+                            Lorem ipsum dolor sisectetur adipisicing elit. Ipsa voltetur adipisicing elit. Ipsa
+                            voluptatum commodi ea eum itaque nesciunt sunt quasi architecto quidem, hic fugit pariatur
+                            alias error minus deleniti dolorem nemo, maxime dolor. Lorem ipsum dolor sit
+                            amet consectetur, adipisicing elit. At maiores explicabo quibusdam, reiciendis minus harum
+                            similique itaque molestiae voluptatem doloremque sequi accusamus voluptatibus quia nam et,
+                            quas non earum. Similique? Lorem ipsum dolor
+                            sit amet consectetur adipisicing elit. Magnam praesentium dignissimos, aperiam eos hic atque
+                            est aliquam obcaecati? Aperiam facere ex alias debitis voluptates officiis delectus nesciunt
+                            praesentium, nihil quaerat.
                         </p>
                     </div>
 

@@ -43,6 +43,6 @@
       <a class="p-2 text-muted" href="#">Science</a>
       <a class="p-2 text-muted" href="#">Health</a>
       <a class="p-2 text-muted" href="#">Style</a>
-      <a class="p-2 text-muted" href="boutique">boutique</a>
+      <a class="p-2 text-muted" href="boutique/article">boutique</a>
     </nav>
   </div>
