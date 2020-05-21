@@ -10,8 +10,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href=".../.../public\assets\css\bootstrap.css">
-    <link rel="stylesheet" type="text/css" href=".../.../public\assets\css\styleBout.css">
+    <link rel="stylesheet" type="text/css" href="../public\assets\css\bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../public\assets\css\styleBout.css">
 
     <title>Boutique</title>
 </head>
@@ -160,7 +160,7 @@
                 <article class="container sliderarticle row">
 
                     <a href="" class="divproduit">
-                        <img class="imgproduit" src=".../.../public\assets\images\kaki.jpg">
+                        <img class="imgproduit" src="../public\assets\images\banniere1.png">
                         <h2 class="titreproduit"> D3500</h2>
                         <p class="stockBoutique">En stock</p>
                         <p class="description"> Kit avec zoom polyvalent, idéal pour la photographie au quotidien. Comprend l'appareil photo D3500 et le zoom compact AF-P DX.</p>
@@ -168,7 +168,7 @@
                     </a>
 
                     <a href="" class="divproduit">
-                        <img class="imgproduit" src="public\assets\images\blanc.jpg">
+                        <img class="imgproduit" src="../public\assets\images\blanc.jpg">
                         <h2 class="titreproduit"> D760</h2>
                         <p class="stockBoutique">En stock</p>
                         <p class="description"> Libérez votre créativité grâce au D750, un appareil rapide, polyvalent et réactifce,bijou technologique plein écran de 24,3 millions de pixels .</p>
@@ -176,7 +176,7 @@
                     </a>
 
                     <a href="" class="divproduit">
-                        <img class="imgproduit" src="images/rose.jpg">
+                        <img class="imgproduit" src="../public\assets\images\rose.jpg">
                         <h2 class="titreproduit"> D7500</h2>
                         <p class="stockBoutique">En stock</p>
                         <p class="description"> La recherche de l'image parfaite peut vous conduire n'importe où. Emportez avec vous le D7500 puissant, réactif et entièrement connecté. </p>
@@ -194,7 +194,7 @@
                 <article class="container sliderarticle row">
 
                     <a href="" class="divproduit">
-                        <img class="imgproduit" src="images/noir.jpg">
+                        <img class="imgproduit" src="../public\assets\images/noir.jpg">
                         <h2 class="titreproduit"> Df </h2>
                         <p class="stockBoutique">En stock</p>
                         <p class="description"> Avec son design rétro et le même capteur CMOS au format FX de 16,2 millions de pixels que le D4 emblématique de Nikonracontez vos histoires avec de superbes photos détaillées et des films Full HD.</p>
@@ -202,14 +202,14 @@
                     </a>
 
                     <a href="" class="divproduit">
-                        <img class="imgproduit" src="images/rouge.jpg">
+                        <img class="imgproduit" src="../public\assets\images/rouge.jpg">
                         <h2 class="titreproduit"> Pack Hybride Canon EOS M50 Noir</h2>
                         <p class="stockBoutique">En stock</p>
                         <p class="description"> OS M50 METTEZ VOS HISTOIRES EN VALEUR Cet appareil photo hybride vous incitera à créer des histoires que vous serez fier de partager grâce à des technologies comme la vidéo 4K.</p>
                         <p class="prixBoutique">3 899,00 €</p>
                     </a>
                     <a href="" class="divproduit">
-                        <img class="imgproduit" src="images/katia.jpg">
+                        <img class="imgproduit" src="../public\assets\images/katia.jpg">
                         <h2 class="titreproduit"> Reflex Canon EOS 2000D Noir + Objectif EF-S</h2>
                         <p class="stockBoutique">En stock</p>
                         <p class="description"> EOS 2000D CHOISISSEZ LA QUALITÉ REFLEX POUR MIEUX RACONTER EN IMAGES Avec le Canon EOS 2000D 24,1 millions de pixels Prenez de splendides photos et films avec effet de flou.</p>
@@ -225,7 +225,7 @@
                 <article class="container sliderarticle row">
 
                     <a href="" class="divproduit">
-                        <img class="imgproduit" src="images/obj1.jpg">
+                        <img class="imgproduit" src="../public\assets\images/obj1.jpg">
                         <h2 class="titreproduit"> Objectif Canon EF 16-35mm f/2.8L III USM </h2>
                         <p class="stockBoutique">En stock</p>
                         <p class="description"> Un objectif ultra grand-angle de la série L avec un ensemble de distances focales idéal pour les photos d'architecture et de paysages.</p>
@@ -233,14 +233,14 @@
                     </a>
 
                     <a href="" class="divproduit">
-                        <img class="imgproduit" src="images/obj2.jpg">
+                        <img class="imgproduit" src="../public\assets\images/obj2.jpg">
                         <h2 class="titreproduit"> PANASONIC Objectif Lumix G Vario 12-60mm</h2>
                         <p class="stockBoutique">En stock</p>
                         <p class="description"> zoom trans standard stabilisé compatible Micro 4/3 (focale équivalente : 24-120 mm) - filtre diamètre : 58 mm - poids : 210 g - paresoleil.</p>
                         <p class="prixBoutique">329,90 €</p>
                     </a>
                     <a href="" class="divproduit">
-                        <img class="imgproduit" src="images/obj3.jpg">
+                        <img class="imgproduit" src="../public\assets\images/obj3.jpg">
                         <h2 class="titreproduit"> PANASONIC Objectif Lumix G Vario 14-140mm</h2>
                         <p class="stockBoutique">En stock</p>
                         <p class="description"> zoom polyvalent stabilisé compatible Micro 4/3 (focale équivalente : 28-280 mm) - filtre diamètre : 58 mm - poids : 265g,Composée de 14 éléments en 12 groupes.</p>
