@@ -25,47 +25,15 @@
 
 <body>
 
-    <header class="monheader">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">LensShop</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Accueil</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Boutique
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" tabindex="-1"> Connexion</a>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
-        </nav>
-    </header>
+    
     <!-- ------------------------------debut page boutique----------------------------- -->
     <div class="boutiquePage">
 
         <!-- LA BANNIERE-->
         <section class="boutiqueBaniere">
+        <header >
+    <?php include_once 'app\Views\navtohome.php';?>
+    </header>
 
             <div class="position-relative overflow-hidden p-1 p-md-1 m-md-1 text-center">
                 <div class="col-md-5 p-lg-5 mx-auto my-5">
@@ -166,7 +134,7 @@
         
             <section class="container-fluid">
                 <h1 class="TitreSection">RECHERCHER PAR TYPE D'APPAREIL PHOTO</h1>
-                <article class="container sliderarticle row">
+                <article style="position:relative;left:260px;width: 1500px;"class="container sliderarticle row">
                      <?php  foreach($article as $article): ?>
                                 <a href="http://localhost/E-commerce/boutique/lire/<?= $article['idarticle']?>" class="divproduit">
                                     <img class="imgproduit" src="<?=$article['photo']?>">
@@ -183,7 +151,7 @@
 
        
 
-        <div class="newletter container-fluid">
+        <div style="position:relative;top:-1000px;"class="newletter container-fluid">
 
             <div class="row d-flex justify-content-center divnews align-items-center">
 
@@ -199,43 +167,44 @@
         </div>
 
 
-        <aside class="assidefinal">
-            <div class="  container">
-                <div class="row ">
-
-                    <div class="col">
-                        <h6> Adipisicing : elit. Ipsa vol sectetur adipisicing elit. Ipsa vol</h6>
-                        <p>
-                            Lorem ipsum dolor sisectetur adipisicing elit. Ipsa voltetur adipisicing elit. Ipsa
-                            voluptatum commodi ea eum itaque nesciunt sunt quasi architecto quidem, hic fugit pariatur
-                            alias error minus deleniti dolorem nemo, maxime dolor. Lorem ipsum dolor sit
-                            amet consectetur, adipisicing elit. At maiores explicabo quibusdam, reiciendis minus harum
-                            similique itaque molestiae voluptatem doloremque sequi accusamus voluptatibus quia nam et,
-                            quas non earum. Similique? Lorem ipsum dolor
-                            sit amet consectetur adipisicing elit. Magnam praesentium dignissimos, aperiam eos hic atque
-                            est aliquam obcaecati? Aperiam facere ex alias debitis voluptates officiis delectus nesciunt
-                            praesentium, nihil quaerat.
-                        </p>
-                    </div>
-
-                    <div class="col">
-                        <h6> Adipisicing : elit. Ipsa vol sectetur adipisicing elit. Ipsa vol</h6>
-                        <p>
-                            Lorem ipsum dolor sisectetur adipisicing elit. Ipsa voltetur adipisicing elit. Ipsa
-                            voluptatum commodi ea eum itaque nesciunt sunt quasi architecto quidem, hic fugit pariatur
-                            alias error minus deleniti dolorem nemo, maxime dolor. Lorem ipsum dolor sit
-                            amet consectetur, adipisicing elit. At maiores explicabo quibusdam, reiciendis minus harum
-                            similique itaque molestiae voluptatem doloremque sequi accusamus voluptatibus quia nam et,
-                            quas non earum. Similique? Lorem ipsum dolor
-                            sit amet consectetur adipisicing elit. Magnam praesentium dignissimos, aperiam eos hic atque
-                            est aliquam obcaecati? Aperiam facere ex alias debitis voluptates officiis delectus nesciunt
-                            praesentium, nihil quaerat.
-                        </p>
-                    </div>
-
-                </div>
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+            <div class="col-12 col-md">
+                <img class="mb-2" src="../public\assets\img\logo-rougepointpetits-0blanc.jpg"
+                    style="position: relative;top:-20px; width=" 225" height="225">
+                <small class="d-block mb-3 text-muted" style="position: relative;top:-20px;left:60px;">2020-2020</small>
             </div>
-        </aside>
+            <div class="col-6 col-md">
+                <h5>Features</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Cool stuff</a></li>
+                    <li><a class="text-muted" href="#">Random feature</a></li>
+                    <li><a class="text-muted" href="#">Team feature</a></li>
+                    <li><a class="text-muted" href="#">Stuff for developers</a></li>
+                    <li><a class="text-muted" href="#">Another one</a></li>
+                    <li><a class="text-muted" href="#">Last time</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Resources</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Resource</a></li>
+                    <li><a class="text-muted" href="#">Resource name</a></li>
+                    <li><a class="text-muted" href="#">Another resource</a></li>
+                    <li><a class="text-muted" href="#">Final resource</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>About</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Team</a></li>
+                    <li><a class="text-muted" href="#">Locations</a></li>
+                    <li><a class="text-muted" href="#">Privacy</a></li>
+                    <li><a class="text-muted" href="#">Terms</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
     </div>
 </body>

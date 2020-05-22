@@ -9,7 +9,7 @@
 
 <head>
 <?php
- include_once 'app\Views\navtohome.php';
+ include_once 'app\Views\navtohome2.php';
 
 ?>
 </head>
@@ -47,7 +47,7 @@
                 </div>
         <!-- Description + Prix a droite de l'image -->
                 <article class=" description col-lg-3">
-                    <p class="anotation">Catégorie/T-shirt</p>
+                    <p class="anotation">Catégorie/hautgme</p>
                     <h1><?=$article['titre']?></h1>
                     <p><?=$article['descri']?></p>
                     <h3 class="prix"><?=$article['prix'] ?> €</h3>
@@ -62,14 +62,12 @@
         <!-- Formulaire Pour choix de Taille + Quantitée -->
                             <form method="GET" action="panier.php">
                                 
-                                <label for="taille">Choisir une taille  </label><br>
+                                <label for="taille">Choisir une couleur  </label><br>
 
                                 <select name="taille" id="taille">
-                                    <option selected value="S">S</option>
-                                    <option value="M">M</option>
-                                    <option value="L">L</option>
-                                    <option value="XL">XL</option>
-                                    <option value="XXL">XXL</option>
+                                    <option selected value="S">bleu</option>
+                                    <option value="M">noir</option>
+                                    <option value="L">blanc</option>
                                 </select>
 
                                 <input value="1" type="number" name="qte_panier" class="qte">
