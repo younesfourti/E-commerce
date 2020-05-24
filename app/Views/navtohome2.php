@@ -22,7 +22,7 @@
         <p style= color:white;font-size:30px;>LensShop</p>
         
       </div>
-      <img class="imgnav" src="public\assets\img\logo2.jpg" alt="" width="50" height="50">
+      <img class="imgnav" src="../../public\assets\img\logo-rougepointpetits-0blanc.jpg" alt="" width="100" height="100">
       <div class="col-4 d-flex justify-content-end align-items-center">
        
         <a class="btn btn-sm btn-outline-secondary" href="">Sign up</a>
