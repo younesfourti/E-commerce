@@ -29,4 +29,13 @@ public function get(){
         $one->execute();
         return $one->fetch(PDO::FETCH_ASSOC);    
     }
+    
+    public function findBycato($gato){
+        $this->getConnection();
+        
+        $sql = "SELECT * FROM `article` WHERE `categorie`='$gato'";
+        $one = $this->_connexion->prepare($sql);
+        $one->execute();
+        return $one->fetchall();    
+    }
 }
