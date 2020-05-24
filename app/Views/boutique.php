@@ -57,23 +57,26 @@
             <a class="p-2 text-muted" href="#">OFFRES</a>
 
         </nav>
+      
+
 
         <!-- moiiiii -->
+        <FORM method="POST" action = "http://localhost/E-commerce/boutique/categ">
         <div class="tableau">
-            <button type="button" class="btn btn-outline-secondary ">TRIER PAR : </button>
+            <button type="submit" class="btn btn-outline-secondary ">TRIER PAR : </button>
             <fieldset>
 
                 <legend>Gamme de prix</legend>
                 <p>
-                    <input type="radio" name="color" id="red" value="#F00">
+                    <input type="radio" name="GATG" id="red" value="prix1">
                     <label for="red">100€ - 250€</label>
                 </p>
                 <p>
-                    <input type="radio" name="color" id="green" value="#0F0">
+                    <input type="radio" name="GATG" id="green" value="prix2">
                     <label for="green">250€ - 500€</label>
                 </p>
                 <p>
-                    <input type="radio" name="color" id="blue" value="#00F">
+                    <input type="radio" name="GATG" id="blue" value="prix3">
                     <label for="blue">500€ - 1 000€</label>
                 </p>
             </fieldset>
@@ -81,23 +84,23 @@
             <fieldset>
                 <legend>Meilleur pour</legend>
                 <p>
-                    <input type="radio" name="color" id="red" value="#F00">
+                    <input type="radio" name="GATG" id="red" value="Paysage">
                     <label for="red">Paysage</label>
                 </p>
                 <p>
-                    <input type="radio" name="color" id="green" value="#0F0">
+                    <input type="radio" name="GATG" id="green" value="Intérieur">
                     <label for="green">Intérieur</label>
                 </p>
                 <p>
-                    <input type="radio" name="color" id="blue" value="#00F">
+                    <input type="radio" name="GATG" id="blue" value="Rue">
                     <label for="blue">Rue</label>
                 </p>
                 <p>
-                    <input type="radio" name="color" id="blue" value="#00F">
+                    <input type="radio" name="GATG" id="blue" value="quotidienne">
                     <label for="blue">Utilisation quotidienne</label>
                 </p>
                 <p>
-                    <input type="radio" name="color" id="blue" value="#00F">
+                    <input type="radio" name="GATG" id="blue" value="Voyage">
                     <label for="blue">Voyage</label>
                 </p>
             </fieldset>
@@ -105,27 +108,28 @@
             <fieldset>
                 <legend>Fonctionnalités</legend>
                 <p>
-                    <input type="radio" name="color" id="red" value="#F00">
+                    <input type="radio" name="GATG" id="red" value="Grande">
                     <label for="red">Grande ouverture</label>
                 </p>
                 <p>
-                    <input type="radio" name="color" id="green" value="#0F0">
+                    <input type="radio" name="GATG" id="green" value="Stabilisateur">
                     <label for="green">Stabilisateur d'image</label>
                 </p>
                 <p>
-                    <input type="radio" name="color" id="blue" value="#00F">
+                    <input type="radio" name="GATG" id="blue" value="STM">
                     <label for="blue">STM</label>
                 </p>
                 <p>
-                    <input type="radio" name="color" id="blue" value="#00F">
+                    <input type="radio" name="GATG" id="blue" value="Amateurs">
                     <label for="blue">Amateurs</label>
                 </p>
                 <p>
-                    <input type="radio" name="color" id="blue" value="#00F">
+                    <input type="radio" name="GATG" id="blue" value="Débutants">
                     <label for="blue">Débutants</label>
                 </p>
             </fieldset>
         </div>
+        </FORM>
         <!-- change -->
 
         <!-- CATEGORIE APPAREIL -->
