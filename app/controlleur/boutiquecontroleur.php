@@ -25,8 +25,8 @@ class boutique extends Controller {
     }
     
     public function lire(){
-        $idurl = $_GET["p"];
-        $id =$idurl[14];
+        $idurl= explode('/', $_GET['p']);
+        $id =$idurl[2];
         
        
         
@@ -37,7 +37,7 @@ class boutique extends Controller {
         $article = $this->articlemodel->findByid($id);
 
         // On envoie les données à la vue lire
-        $this->render('teste', compact('article'));
+        $this->render('produit', compact('article'));
     }
 
 }

@@ -22,21 +22,17 @@
         <p style= color:white;font-size:30px;>LensShop</p>
         
       </div>
-      <img class="imgnav" src="public\assets\img\logo2.jpg" alt="" width="50" height="50">
+      <img class="imgnav" src="../../public\assets\img\logo-rougepointpetits-0blanc.jpg" alt="" width="100" height="100">
       <div class="col-4 d-flex justify-content-end align-items-center">
        
         <a class="btn btn-sm btn-outline-secondary" href="">Sign up</a>
       </div>
     </div>
   </header>
-  
-  
-
-
 
   <div class="nav-scroller py-1 mb-2">
     <nav class="nav d-flex justify-content-between">
-      <a class="p-2 text-muted" href="#">decouvert Appareils photo</a>
+    <a class="p-2 text-muted" href="#">decouvert Appareils photo</a>
       <a class="p-2 text-muted" href="#">Cadeaux et guides d'achat</a>
       <a class="p-2 text-muted" href="#">Accessoires et produits officiels</a>
       <a class="p-2 text-muted" href="#">Cadeaux et guides d'achat</a>

@@ -1,91 +1,88 @@
-.boutiquePage a{
-    color:black;
+.boutiquePage a {
+    color: black;
     text-decoration: none;
 }
-/*Menu secondaire */
-.navbarperso{
-    text-align: center;
-    padding:1% 5% 1% 1%;
-    background-color: rgb(0, 0, 0) (241, 115, 92, 0.274);
 
+
+/*Menu secondaire */
+
+.navbarperso {
+    text-align: center;
+    padding: 1% 5% 1% 1%;
+    background-color: rgb(0, 0, 0) (241, 115, 92, 0.274);
 }
-.navbarperso a{
+
+.navbarperso a {
     font-size: 1.1rem;
     font-weight: 300;
     border-bottom: 1px solid black;
 }
 
 
-
 /*LA BANNIERRE */
-.boutiqueBaniere{
+
+.boutiqueBaniere {
     padding: 2rem;
     background: url("../images/banniere1.png") center no-repeat;
-    background-size: cover ;
+    background-size: cover;
 }
-.boutiqueBaniere h1{
+
+.boutiqueBaniere h1 {
     color: white;
     font-size: 3.8rem;
     font-weight: 900;
 }
 
-.boutiqueBaniere span{
+.boutiqueBaniere span {
     color: white;
     font-size: 3rem;
     font-weight: 500;
 }
 
-.boutiqueBaniere p{
+.boutiqueBaniere p {
     color: white;
     padding: 0.2rem;
 }
 
-.boutiqueBaniere a{
-    background-color: white;
-    border: unset;
-    font-size: 1.3rem;
-    border-radius: 3px;
-    padding: 0.5rem 2rem 0.5rem 2rem;
+.boutiqueBaniere a {
+    color: white;
 }
-.tableau
-{
-margin-left: 10px;
+
+.tableau {
+    margin-left: 10px;
 }
+
 
 /* APAREEEEEEEEEEEEEIIL */
+
+
 /*Catergorie d'article */
-.emplacementappareilphoto 
-{
-    position : relative;
+
+.emplacementappareilphoto {
+    position: relative;
     top: -800px;
     margin-left: 150px;
-
 }
-.emplacementappareilphoto2
-{
-    position : relative;
+
+.emplacementappareilphoto2 {
+    position: relative;
     top: -1000px;
     margin-left: 150px;
-
 }
 
-.emplacementappareilphoto3
-{
-    position : relative;
+.emplacementappareilphoto3 {
+    position: relative;
     top: -1200px;
     margin-left: 150px;
-
 }
 
-
-.sliderarticle{
-    
+.sliderarticle {
     max-width: 85%;
-    margin: auto ;
+    margin: auto;
     margin-top: 0rem;
 }
 
-.divproduit{
+.divproduit {
     margin: auto;
     margin-bottom: 20rem;
     text-align: center;
@@ -94,41 +91,42 @@ margin-left: 10px;
     border-bottom: 1px solid black;
 }
 
-
-.imgproduit{
+.imgproduit {
     width: 60;
     max-width: 12rem;
     margin-bottom: 1rem;
 }
 
-.titreproduit{
+.titreproduit {
     font-size: 1.5rem;
 }
 
-.stockBoutique{
+.stockBoutique {
     color: rgb(33, 189, 33);
 }
 
-.prixBoutique{
+.prixBoutique {
     font-size: 1.1rem;
     font-weight: 600;
 }
 
-.TitreSection{
+.TitreSection {
     margin-top: 5rem;
     margin-bottom: 3rem;
     text-align: center;
-    font-size:  2rem;
+    font-size: 2rem;
 }
+
 
 /*En tendance */
-.sectiontendances{
+
+.sectiontendances {
     text-align: center;
-    padding-left: 5% ;
-    padding-right: 5% ;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.imgtendance{
+.imgtendance {
     max-width: 100%;
     min-width: 15rem;
 }
@@ -137,53 +135,52 @@ margin-left: 10px;
     text-align: left;
     margin: 0.1rem 0 0 0.7rem;
     font-size: 1rem;
-
 }
+
 
 /* Le meilleur de Kalishop */
 
-.sectionmeilleur{
+.sectionmeilleur {
     text-align: center;
 }
 
-.DivPrinc{
+.DivPrinc {
     display: flex;
     justify-content: center;
     margin: auto;
 }
 
-
-.imgSolo{
+.imgSolo {
     max-width: 47em;
 }
 
-.imgMultiple{
+.imgMultiple {
     max-width: 22em;
     margin: 0rem 0 3rem 0
 }
 
-.meilleur_colone{
+.meilleur_colone {
     display: flex;
     flex-direction: column;
     margin: 0rem 0rem 0 5rem;
-
 }
 
-.meillSolo{
+.meillSolo {
     position: relative;
 }
 
 .imgMultiple:hover,
 .imgSolo:hover,
 .divproduit:hover,
-.navbarperso a:hover
-{
+.navbarperso a:hover {
     transform: scale(1.02);
     transition: transform 0.25s;
 }
 
+
 /*Overlay Images "Le Meilleur de Kalishop */
-.textimgSolo{
+
+.textimgSolo {
     position: absolute;
     top: 1px;
     font-size: 1rem;
@@ -192,7 +189,7 @@ margin-left: 10px;
     padding: 1% 2% 1% 2%;
 }
 
-.textimgSolo2{
+.textimgSolo2 {
     position: absolute;
     top: 1px;
     color: white;
@@ -201,24 +198,24 @@ margin-left: 10px;
     font-size: 0.8rem;
 }
 
-.relativposition{
+.relativposition {
     position: relative;
 }
 
-.newletter{
+.newletter {
     background-color: #E7BB83;
     padding: 1%;
     margin-bottom: 5rem;
 }
 
-.divnews p{
+.divnews p {
     color: white;
     font-size: 2rem;
     font-weight: 800;
     line-height: 90%;
 }
 
-.divnews a{
+.divnews a {
     color: white;
     font-size: 1rem;
     font-weight: 400;
@@ -227,12 +224,13 @@ margin-left: 10px;
     padding: 3%;
 }
 
-.assidefinal{
+.assidefinal {
     background-color: rgb(246, 246, 246);
     padding-top: 5%;
     padding-bottom: 5%;
     margin-bottom: 6%;
 }
+
 p,
 label {
     font: 1rem 'Fira Sans', sans-serif;
@@ -242,90 +240,65 @@ input {
     margin: .4rem;
 }
 
-@media screen and (max-width: 1200px){
-
-    .navbarperso{
+@media screen and (max-width: 1200px) {
+    .navbarperso {
         padding: 1% 0 2% 0;
     }
-
-    .DivPrinc{
+    .DivPrinc {
         flex-direction: column;
     }
-    
-    .imgSolo{
+    .imgSolo {
         max-width: 100%;
         margin: auto;
-        
     }
-    .meilleur_colone{
+    .meilleur_colone {
         flex-direction: row;
         margin: auto;
     }
-
-    .meillSolo{
+    .meillSolo {
         margin: auto;
     }
-    
-    .imgMultiple{
+    .imgMultiple {
         max-width: 27rem;
         width: 100%;
-
     }
 }
 
-@media screen and (max-width: 600px){
-
-    .navbarperso{
+@media screen and (max-width: 600px) {
+    .navbarperso {
         flex-direction: column;
-        padding:0;
+        padding: 0;
     }
-
 }
-.p1{
+
+.p1 {
     border-width: 5px;
     border-style: solid;
-    border-color : #09C;
-  }S
-label {
+    border-color: #09C;
+}
+
+S label {
     position: relative;
     padding: 0 0 0 2rem;
-  }
-  
-  input[type=checkbox] {
+}
+
+input[type=checkbox] {
     position: absolute;
     opacity: 0;
-  }
-  
+}
 
-
-  input[type=checkbox] + label::before,
-  input[type=checkbox] + label::after 
-  {
+input[type=checkbox]+label::before,
+input[type=checkbox]+label::after {
     content: '';
     position: absolute;
     display: inline-block;
-  }
+}
 
-  input[type=checkbox] + label::before 
-  {
+input[type=checkbox]+label::before {
     left: 0.5rem;
     top: 0.15rem;
     width: 0.9rem;
     height: 0.9rem;
     border: 0.05rem solid black;
     background: white;
-  }
-  
- 
-
-
-
-  
-  
-
-
-
-
- 
-
-
+}
