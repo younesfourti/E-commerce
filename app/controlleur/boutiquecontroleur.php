@@ -39,5 +39,18 @@ class boutique extends Controller {
         // On envoie les données à la vue lire
         $this->render('produit', compact('article'));
     }
+    
+    
+    public function categ(){
+        $gato= $_POST['GATG'];
+        $this->loadModel('articlemodel');
+         
+        // On stocke l'article dans $article
+        $article = $this->articlemodel->findBycato($gato);
+
+        $this->render('boutique',compact('article'));
+
+
+    }
 
 }
