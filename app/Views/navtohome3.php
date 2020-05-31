@@ -36,7 +36,7 @@
                         } else {
                         ?>
                              <a class="btn btn-sm btn-outline-secondary"
-                    href="http://localhost/E-commerce/home/Subscribe">inscription</a>
+                    href="http://localhost/E-commerce/home/deconnxion">inscription</a>
                         <?php
                         }
                         ?>
@@ -47,7 +47,7 @@
                 <p style=color:white;font-size:30px;>LensShop</p>
                
             </div>
-            <img class="imgnav" src="public\assets\img\logo2.jpg" alt="" width="50" height="50">
+            <img class="imgnav" src="../public\assets\img\logo2.jpg" alt="" width="50" height="50">
             <div class="col-4 d-flex justify-content-end align-items-center">
 
                
@@ -55,7 +55,7 @@
                     <?php
                   if(isset($_SESSION['idCompte'])) {
                   ?>
-                  <img src="public\assets\profillogo.png" style='float : right;
+                  <img src="../public\assets\profillogo.png" style='float : right;
     width : 40px; height: 40px;'>
                 <a class="btn btn-sm btn-outline-secondary"
                     href="http://localhost/E-commerce/home/Subscribe">Bonjour <?= $_SESSION['firstname'], " ",   $_SESSION['lastname']; ?></a>
@@ -82,6 +82,7 @@
     <div class="nav-scroller py-1 mb-2">
         <nav class="nav d-flex justify-content-between">
             <a class="p-2 text-muted" href="#">decouvert Appareils photo</a>
+          
             <a class="p-2 text-muted" href="#">Accessoires et produits officiels</a>
             <a class="p-2 text-muted" href="#">Cadeaux et guides d'achat</a>
             <a class="p-2 text-muted" href="http://localhost/E-commerce/boutique/Camescopes">Caméscopes</a>
