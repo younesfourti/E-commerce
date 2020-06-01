@@ -25,18 +25,14 @@
                   <div class="col-lg-2">
                         <aside class="col test">
         <!--Les miniatures : METTRE UN FOREACH POUR PLACER CHAQUES IMAGES AUTOMATIQUEMENT -->
-        <?php
-        $i=0;
-        while($i<3)
-        {
-            ?>
         
-                    <a href="#"><img class="img-thumbnail minia " src="../<?=$article['photo']?>"></a>
-                <?php
-                $i=$i+1;
+                    <a href="#"><img class="img-thumbnail minia " src="../<?=$article['photo2']?>"></a>
+                    <a href="#"><img class="img-thumbnail minia " src="../<?=$article['photo3']?>"></a>
+                    <a href="#"><img class="img-thumbnail minia " src="../<?=$article['photo4']?>"></a>
+                
 
-                }
-                ?>
+                
+                
                         </aside>
                    </div>
         <!-- L'image Principale -->
