@@ -1,6 +1,8 @@
 <?php
 class usermodel extends Model{
     
+    
+    // partis pour l insciption
 public function Subscribe(){
     var_dump($_GET['p']); 
     // connxion a la base 
@@ -57,6 +59,9 @@ public function Subscribe(){
     }
 }
 }
+
+
+// partis pour la connexion 
 public function connection(){
     $this->getConnection();
     $a=$this->_connexion; 
@@ -96,6 +101,121 @@ public function connection(){
     }
 }
 
+
+// partis pour les mise a jpur du profil
+
+
+public function updateprofil(){
+    $this->getConnection();
+    $a=$this->_connexion; 
+    if (count($_POST) > 0){
+    $prenom = $_POST['newfirstName'];
+    $nom = $_POST['newlastName'];
+    $adr = $_POST['newaddress'];
+    $conty= $_POST['newcountry'];
+    $lang= $_POST['newlang'];
+    $zip= $_POST['newzip'];
+    var_dump($_POST);
+    // mise a jour du nom si l utilisateur la modifier
+    if(isset($_POST['newlastName']) AND !empty($_POST['newlastName']) AND $_POST['newlastName'] != $_SESSION['lastname'])
+	{
+		$newnom = htmlspecialchars($_POST['newlastName']);
+		$_SESSION['lastname'] = $newnom;
+		$insertnom = $a->prepare("UPDATE compte SET lastName = ? WHERE idCompte  = ?");
+		$insertnom->execute(array($newnom, $_SESSION['idCompte']));
+        echo "<script type='text/javascript'>document.location.replace('http://localhost/E-commerce/home/profil');</script>";
+		
+
+    }
+    // mise a jour du prenom si l utilisateur la modifier 
+    if(isset($_POST['newfirstName']) AND !empty($_POST['newfirstName']) AND $_POST['newfirstName'] !=  $_SESSION['firstname'])
+	{
+		
+		$newprenom = htmlspecialchars($_POST['newfirstName']);
+		$_SESSION['firstname'] = $newprenom;
+		$insertprenom = $a->prepare("UPDATE compte SET firstName = ? WHERE idCompte  = ?");
+		$insertprenom->execute(array($newprenom, $_SESSION['idCompte']));
+        echo "<script type='text/javascript'>document.location.replace('http://localhost/E-commerce/home/profil');</script>";
+
+    }
+    // mise a jour du adresse si l utilisateur la modifier
+    if(isset($_POST['newaddress']) AND !empty($_POST['newaddress']) AND $_POST['newaddress'] !=  $_SESSION['address'])
+	{
+		
+		$newaddress = htmlspecialchars($_POST['newaddress']);
+		$_SESSION['adresse'] = $newaddress;
+		$insertaddress = $a->prepare("UPDATE compte SET adresse = ? WHERE idCompte  = ?");
+		$insertaddress->execute(array($newaddress, $_SESSION['idCompte']));
+        echo "<script type='text/javascript'>document.location.replace('http://localhost/E-commerce/home/profil');</script>";
+
+    }
+    // mise a jour du country si l utilisateur la modifier
+    if(isset($_POST['newcountry']) AND !empty($_POST['newcountry']) AND $_POST['newcountry'] !=  $_SESSION['country'])
+	{
+		
+		$newcountry = htmlspecialchars($_POST['newcountry']);
+		$_SESSION['country'] = $newcountry;
+		$insertcountry = $a->prepare("UPDATE compte SET country = ? WHERE idCompte  = ?");
+		$insertcountry->execute(array($newcountry, $_SESSION['idCompte']));
+        echo "<script type='text/javascript'>document.location.replace('http://localhost/E-commerce/home/profil');</script>";
+
+    }
+    // mise a jour du lang si l utilisateur la modifier
+    if(isset($_POST['newlang']) AND !empty($_POST['newlang']) AND $_POST['newlang'] !=  $_SESSION['lang'])
+	{
+		
+		$newlang = htmlspecialchars($_POST['newlang']);
+		$_SESSION['lang'] = $newlang;
+		$insertlang = $a->prepare("UPDATE compte SET lang = ? WHERE idCompte  = ?");
+		$insertlang->execute(array($newlang, $_SESSION['idCompte']));
+        echo "<script type='text/javascript'>document.location.replace('http://localhost/E-commerce/home/profil');</script>";
+
+    }
+    // mise a jour du zip si l utilisateur la modifier
+    if(isset($_POST['newzip']) AND !empty($_POST['newzip']) AND $_POST['newzip'] !=  $_SESSION['zip'])
+	{
+		
+		$newzip = htmlspecialchars($_POST['newzip']);
+		$_SESSION['zip'] = $newzip;
+		$insertzip = $a->prepare("UPDATE compte SET zip = ? WHERE idCompte  = ?");
+		$insertzip->execute(array($newzip, $_SESSION['idCompte']));
+        echo "<script type='text/javascript'>document.location.replace('http://localhost/E-commerce/home/profil');</script>";
+
+	}
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+}
 
 
 

@@ -78,7 +78,7 @@
             <div class="site-padding-l-r no-padding-xs" ng-show="$ctrl.userDetailsLoaded" aria-hidden="false" style="">
                 <div class="account-text-bar">
                     <h2 class="core-text-header core-text-color-content-grey account-text-overflow account-header-line ng-binding ng-scope"
-                        ng-if="!$ctrl.isEno();">Younes Fourti</h2>  
+                        ng-if="!$ctrl.isEno();"><?=$_SESSION['firstname']." ".$_SESSION['lastname']?></h2>
                     <p class="core-text-content core-text-color-content-grey account-text-bottom-margin ng-binding">Ceci
                         est votre compte LensShop ID.</p>
                 </div>
@@ -104,32 +104,41 @@
                                             <p class="core-text-small core-text-color-label-grey ng-binding">Nom</p>
                                             <p id="accountName" ng-if="!$ctrl.isEno();"
                                                 class="account-text-margin core-text-content core-text-color-content-grey account-text-overflow ng-binding ng-scope">
-                                                Younes Fourti</p><!-- end ngIf: !$ctrl.isEno(); -->
+                                                <?=$_SESSION['firstname']." ".$_SESSION['lastname']?></p>
+                                            <!-- end ngIf: !$ctrl.isEno(); -->
                                             <p class="core-text-small core-text-color-label-grey ng-binding">Langue</p>
                                             <p id="accountLanguage"
                                                 class="account-text-margin core-text-content core-text-color-content-grey account-text-overflow ng-binding">
-                                                Français</p>
+                                                <?=$_SESSION['lang']?></p>
                                             <p class="core-text-small core-text-color-label-grey ng-binding">Pays/Région
                                             </p>
                                             <p id="accountCountry"
                                                 class="account-text-margin core-text-content core-text-color-content-grey account-text-overflow ng-binding">
-                                                France</p>
+                                                <?= $_SESSION['country']?></p>
                                         </div>
                                         <div flex="66" class="flex-66">
                                             <p class="core-text-small core-text-color-label-grey ng-binding">
-                                                Numéro de téléphone mobile</p>
+                                                Adresse</p>
 
                                             <p id="accountPhoneNumber" ng-if="!$ctrl.displayPhoneNumber()"
                                                 class="account-text-margin core-text-content italic core-text-color-optional-grey ng-binding ng-scope">
-                                                Non défini</p>
-                                            <p class="core-text-small core-text-color-label-grey ng-binding">Date de naissance</p>
-                                                
+                                                <?= $_SESSION['adresse']?></p>
+                                            <p class="core-text-small core-text-color-label-grey ng-binding">Date de
+                                                naissance</p>
+
 
                                             <p id="accountDateOfBirth" ng-if="!$ctrl.displaybirthDate()"
                                                 class="account-text-margin core-text-content italic core-text-color-optional-grey ng-binding ng-scope">
                                                 Non défini</p>
+                                            <p class="core-text-small core-text-color-label-grey ng-binding">Zip</p>
+
+
+                                            <p id="accountDateOfBirth" ng-if="!$ctrl.displaybirthDate()"
+                                                class="account-text-margin core-text-content italic core-text-color-optional-grey ng-binding ng-scope">
+                                                <?=$_SESSION['zip']?></p>
                                         </div>
-                                        <div> <a href="" id="editButton" ng-click="$ctrl.toggleState()"
+                                        <div> <a href="http://localhost/E-commerce/update/profile" id="editButton"
+                                                ng-click="$ctrl.toggleState()"
                                                 class="core-text-small core-text-color-blue gcid-link edit-button ng-binding">Éditer</a>
                                         </div>
                                     </div>
@@ -152,7 +161,7 @@
                                 <div class="account-left-column" style="min-width:50%">
                                     <p class="core-text-small core-text-color-label-grey ng-binding">Adresse e-mail</p>
                                     <p class="core-text-content email-text core-text-color-content-grey ng-binding">
-                                        y66521175@gmail.com</p>
+                                        <?= $_SESSION['email']?></p>
                                     <a ng-if="$ctrl.isPasswordSet() &amp;&amp; $ctrl.ableToChangeEmail()"
                                         class="gcid-link core-text-color-blue core-text-small ng-binding ng-scope"
                                         id="emailChangeButton" email-change-button="">Changer</a>
