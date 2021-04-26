@@ -23,7 +23,7 @@ public function getcamera(){
      */
     public function findcameraByid($id){
         $this->getConnection();
-        var_dump($id);
+        
         $sql = "SELECT * FROM `camera` WHERE `idarticle`='$id'";
         $one = $this->_connexion->prepare($sql);
         $one->execute();

@@ -28,11 +28,8 @@
                   ?>
                 <a class="btn btn-sm btn-outline-secondary"
                     href="http://localhost/E-commerce/home/deconnxion"> deconnexion </a>
-                    <?php}
-                        if (isset($_SESSION['id'])) {
-                        ?>
-
-                        <?php
+                    <?php
+                        
                         } else {
                         ?>
                              <a class="btn btn-sm btn-outline-secondary"
@@ -47,7 +44,7 @@
                 <p style=color:white;font-size:30px;>LensShop</p>
                
             </div>
-            <img class="imgnav" src="public\assets\img\logo2.jpg" alt="" width="50" height="50">
+            <img class="imgnav" src="public\assets\img\logo2.jpg" alt="" width="50" height="50" >
             <div class="col-4 d-flex justify-content-end align-items-center">
 
                
@@ -58,12 +55,8 @@
                   <img src="public\assets\profillogo.png" style='float : right;
     width : 40px; height: 40px;'>
                 <a class="btn btn-sm btn-outline-secondary"
-                    href="http://localhost/E-commerce/home/Subscribe">Bonjour <?= $_SESSION['firstname'], " ",   $_SESSION['lastname']; ?></a>
-                    <?php}
-                        if (isset($_SESSION['id'])) {
-                        ?>
-
-                        <?php
+                    href="http://localhost/E-commerce/home/profil">Bonjour <?= $_SESSION['firstname'], " ",   $_SESSION['lastname']; ?></a>
+                    <?php
                         } else {
                         ?>
                               <a class="btn btn-sm btn-outline-secondary"
@@ -80,13 +73,14 @@
 
 
     <div class="nav-scroller py-1 mb-2">
-        <nav class="nav d-flex justify-content-between">
-            <a class="p-2 text-muted" href="#">decouvert Appareils photo</a>
+    <nav class="nav d-flex justify-content-between">
+            <a class="p-2 text-muted" href="#">Appareils photo</a>
+          
             <a class="p-2 text-muted" href="#">Accessoires et produits officiels</a>
-            <a class="p-2 text-muted" href="#">Cadeaux et guides d'achat</a>
+        
             <a class="p-2 text-muted" href="http://localhost/E-commerce/boutique/Camescopes">Caméscopes</a>
             <a class="p-2 text-muted" href="#">Offres</a>
-            <a class="p-2 text-muted" href="http://localhost/E-commerce/boutique/article">boutique</a>
+            <a class="p-2 text-muted" href="http://localhost/E-commerce/boutique/NewArticle">nouveau produit</a>
             <a class="p-2 text-muted" href="http://localhost/E-commerce/home/profil">parametre de compte</a>
         </nav>
     </div>

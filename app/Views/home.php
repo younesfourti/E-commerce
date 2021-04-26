@@ -215,7 +215,44 @@
 
 
     <!-- footer --> 
-    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+    
+    </div>
+
+
+</body>
+
+<style>
+.image {
+    background: url("public/assets/img/eos-r-lenses-promo_206985571703632.jpg") no-repeat center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 40rem;
+    margin: 0;
+    padding: 0;
+
+}
+
+.image2 {
+    background: url("public/assets/img/entete.jpg") no-repeat center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 35rem;
+    margin: 0;
+    padding: 0;
+
+}
+
+.partis2image2 {
+    background: url("public/assets/img/canon_eos.jpg") no-repeat center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 35rem;
+    margin: 0;
+    padding: 0;
+
+}
+</style>
+<footer class="pt-4 my-md-5 pt-md-5 border-top" style="max-width: 99%; ">
         <div class="row">
             <div class="col-12 col-md">
                 <img class="mb-2" src="public\assets\img\logo-rougepointpetits-0blanc.jpg"
@@ -253,41 +290,4 @@
             </div>
         </div>
     </footer>
-    </div>
-
-
-</body>
-
-<style>
-.image {
-    background: url("public/assets/img/eos-r-lenses-promo_206985571703632.jpg") no-repeat center fixed;
-    background-size: cover;
-    width: 100%;
-    height: 40rem;
-    margin: 0;
-    padding: 0;
-
-}
-
-.image2 {
-    background: url("public/assets/img/entete.jpg") no-repeat center fixed;
-    background-size: cover;
-    width: 100%;
-    height: 35rem;
-    margin: 0;
-    padding: 0;
-
-}
-
-.partis2image2 {
-    background: url("public/assets/img/canon_eos.jpg") no-repeat center fixed;
-    background-size: cover;
-    width: 100%;
-    height: 35rem;
-    margin: 0;
-    padding: 0;
-
-}
-</style>
-
 </html>

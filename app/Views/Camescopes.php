@@ -32,7 +32,7 @@
         <!-- LA BANNIERE-->
         <section class="boutiqueBaniere">
         <header >
-    <?php include_once 'app\Views\navtohome3.php';?>
+    <?php include_once 'app\Views\bugNum3.php';?>
     </header>
 
             <div class="position-relative overflow-hidden p-1 p-md-1 m-md-1 text-center">
@@ -133,12 +133,12 @@
         <!-- change -->
 
         <!-- CATEGORIE APPAREIL -->
-        <div class="emplacementappareilphoto">
+        <div class="emplacementappareilphoto"style="height:0px;">
 
         
             <section class="container-fluid">
                 <h1 class="TitreSection">RECHERCHER PAR TYPE De camescopes</h1>
-                <article style="position:relative;left: 12%;width: 1500px;"class="container sliderarticle row">
+                <article style="position:relative;left: 12%;width: 100%;"class="container sliderarticle row">
                      <?php  foreach($article as $article): ?>
                      
                                 <a href="http://localhost/E-commerce/boutique/lireCamescopes/<?= $article['idarticle']?>" class="divproduit "style="position:relative; margin:15px;">
@@ -158,10 +158,14 @@
 
        
 
-        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+       
+
+    
+</body>
+<footer class="pt-4 my-md-5 pt-md-5 border-top" style="max-width: 99%; ">
         <div class="row">
             <div class="col-12 col-md">
-                <img class="mb-2" src="../public\assets\img\logo-rougepointpetits-0blanc.jpg"
+                <img class="mb-2" src="public\assets\img\logo-rougepointpetits-0blanc.jpg"
                     style="position: relative;top:-20px; width=" 225" height="225">
                 <small class="d-block mb-3 text-muted" style="position: relative;top:-20px;left:60px;">2020-2020</small>
             </div>
@@ -196,8 +200,4 @@
             </div>
         </div>
     </footer>
-
-    </div>
-</body>
-
 </html>
