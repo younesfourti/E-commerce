@@ -48,7 +48,7 @@
         <!-- Description + Prix a droite de l'image -->
                 <article class=" description col-lg-3">
                     <h1><?=$article['titre']?></h1>
-                    <p><?=$article['descri']?></p>
+                    
                     <h3 class="prix"><?=$article['prix'] ?> €</h3>
 
                     <div>
@@ -86,16 +86,16 @@
             <article class="row">
                 <div class="col-lg-6">
                     <h2>DESCRIPTION</h2>
-                    <p>nn fini</p>
+                    <p><?=$article['descri']?></p>
                 </div>
 
                 <div class="col-lg-6">
                     <h2>CARACTERISTIQUES</h2>
                     <ul>
-                        <li>nn</li>
-                        <li>nn</li>
-                        <li>nn</li>
-                        <li>fini</li>
+                        <li>c est le futur</li>
+                        <li>c est le futur</li>
+                        <li>c est le futur</li>
+                        <li>achete</li>
                     </ul>
                 </div>
 
@@ -109,7 +109,7 @@
 <footer class="pt-4 my-md-5 pt-md-5 border-top" style="max-width: 99%; ">
         <div class="row">
             <div class="col-12 col-md">
-                <img class="mb-2" src="public\assets\img\logo-rougepointpetits-0blanc.jpg"
+                <img class="mb-2" src="../../public/assets/img/logo-rougepointpetits-0blanc.jpg"
                     style="position: relative;top:-20px; width=" 225" height="225">
                 <small class="d-block mb-3 text-muted" style="position: relative;top:-20px;left:60px;">2020-2020</small>
             </div>

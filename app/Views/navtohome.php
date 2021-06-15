@@ -27,13 +27,13 @@
                   if(isset($_SESSION['idCompte'])) {
                   ?>
                 <a class="btn btn-sm btn-outline-secondary"
-                    href="http://localhost/E-commerce/home/deconnxion"> deconnexion </a>
+                    href="http://localhost/lensshop/home/deconnxion"> deconnexion </a>
                     <?php
                         
                         } else {
                         ?>
                              <a class="btn btn-sm btn-outline-secondary"
-                    href="http://localhost/E-commerce/home/Subscribe">inscription</a>
+                    href="http://localhost/lensshop/home/Subscribe">inscription</a>
                         <?php
                         }
                         ?>
@@ -55,12 +55,12 @@
                   <img src="public\assets\profillogo.png" style='float : right;
     width : 40px; height: 40px;'>
                 <a class="btn btn-sm btn-outline-secondary"
-                    href="http://localhost/E-commerce/home/profil">Bonjour <?= $_SESSION['firstname'], " ",   $_SESSION['lastname']; ?></a>
+                    href="http://localhost/lensshop/home/profil">Bonjour <?= $_SESSION['firstname'], " ",   $_SESSION['lastname']; ?></a>
                     <?php
                         } else {
                         ?>
                               <a class="btn btn-sm btn-outline-secondary"
-                    href="http://localhost/E-commerce/home/connection">connection</a>n 
+                    href="http://localhost/lensshop/home/connection">connection</a>n 
                         <?php
                         }
                         ?>
@@ -74,13 +74,13 @@
 
     <div class="nav-scroller py-1 mb-2">
     <nav class="nav d-flex justify-content-between">
-            <a class="p-2 text-muted" href="#">Appareils photo</a>
+            <a class="p-2 text-muted" href="http://localhost/lensshop/boutique/Camera">Appareils photo</a>
           
             <a class="p-2 text-muted" href="#">Accessoires et produits officiels</a>
         
-            <a class="p-2 text-muted" href="http://localhost/E-commerce/boutique/Camescopes">Caméscopes</a>
+            <a class="p-2 text-muted" href="http://localhost/lensshop/boutique/Camescopes">Caméscopes</a>
             <a class="p-2 text-muted" href="#">Offres</a>
-            <a class="p-2 text-muted" href="http://localhost/E-commerce/boutique/NewArticle">nouveau produit</a>
-            <a class="p-2 text-muted" href="http://localhost/E-commerce/home/profil">parametre de compte</a>
+            <a class="p-2 text-muted" href="http://localhost/lensshop/boutique/NewArticle">nouveau produit</a>
+            <a class="p-2 text-muted" href="http://localhost/lensshop/home/profil">parametre de compte</a>
         </nav>
     </div>

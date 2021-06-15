@@ -22,7 +22,7 @@
             <img class="d-block mx-auto mb-4" src="../public\assets\img\logo-rougepointpetits-0blanc.jpg" alt=""
                 width="100" height="100">
             <h2>LensShop</h2>
-            <p class="lead">ici vous pouvez mettre a jour vos informations personelles facillement </p>
+            <p class="lead">ici vous pouvez mettre a jour vos informations personnelles  facillement </p>
         </div>
 
 

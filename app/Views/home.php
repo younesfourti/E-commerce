@@ -14,8 +14,7 @@
         <?php include_once 'app\Views\navtohome.php';?>
 
         <div>
-            <p style="position:relative;top:100px;text-align:center;font-size:70px;color:white;">Rechercher par type
-                d'objectif</p>
+            <p style="position:relative;top:100px;text-align:center;font-size:70px;color:white;">Retrouvez les plus grandes marques d'objectifs photos</p>
 
         </div>
     </div>

@@ -25,9 +25,23 @@
         <h1 class="brand-text">LensShop</h1>
       </a><img src="../public/assets/img/logo-rougepointpetits-0blanc.jpg"  width="60" height="60"  sizes="60px" alt="" class="logo">
       <nav role="navigation" class="navigation-menu w-nav-menu">
-        <a href="index.html" aria-current="page" class="navigation-link w-nav-link w--current">boutique</a>
-        <a href="blog.html" class="navigation-link w-nav-link">nouveux produit</a>
-        <a href="about.html" class="navigation-link w-nav-link">younes fourti</a>
+           
+        <a href="http://localhost/lensshop/" class="navigation-link w-nav-link">HOME</a>
+        <a href="http://localhost/lensshop/boutique/NewArticle" aria-current="page" class="navigation-link w-nav-link w--current">Nouveux Produit</a>
+        <?php
+                  if(isset($_SESSION['idCompte'])) {
+                  ?>
+                  
+                <a class="navigation-link w-nav-link"
+                    href="http://localhost/lensshop/home/profil">Bonjour <?= $_SESSION['firstname'], " ",   $_SESSION['lastname']; ?></a>
+                    <?php
+                        } else {
+                        ?>
+                              <a class="navigation-link w-nav-link"
+                    href="http://localhost/lensshop/home/connection">connection</a>n 
+                        <?php
+                        }
+                        ?>
       </nav>
       <div class="hamburger-button w-nav-button">
         <div class="w-icon-nav-menu"></div>
@@ -48,7 +62,7 @@
       <div class="stock">
         <a class="link-2">En stock</a><br>
       </div>
-      <a href="http://localhost/E-commerce/boutique/lire/<?= $article['idarticle']?>" class="button w-button"><?= $article['prix'] ?></a>
+      <a href="http://localhost/lensshop/boutique/lire/<?= $article['idarticle']?>" class="button w-button"><?= $article['prix'] ?></a>
     </div>
     <?php endforeach ?>
   </div>

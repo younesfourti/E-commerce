@@ -65,7 +65,7 @@ public function getCamescopes(){
      */
     public function findCamescopesByid($id){
         $this->getConnection();
-        var_dump($id);
+        
         $sql = "SELECT * FROM `Camescopes` WHERE `idarticle`='$id'";
         $one = $this->_connexion->prepare($sql);
         $one->execute();

@@ -38,7 +38,7 @@ public function Subscribe(){
                     $insertmbr = $a->prepare("INSERT INTO compte (lastname,firstname,email,password,adresse,country,lang,sex,zip) VALUES( ?, ?, ?, ?, ?, ?, ?, ?, ?)");
                     $insertmbr->execute(array($nom, $prenom, $mail, $mdp, $adr, $conty, $lang, $zip, $sex));
                     
-                    echo "<script type='text/javascript'>document.location.replace('http://localhost/E-commerce/');</script>";
+                    echo "<script type='text/javascript'>document.location.replace('http://localhost/lensshop/');</script>";
 
                 }else{
                     $this->render('motdepassenonidentic'); 
@@ -92,7 +92,7 @@ public function connection(){
             $_SESSION['lang'] = $reponse['lang'];
             $_SESSION['sex'] = $reponse['sex'];
             $_SESSION['zip'] = $reponse['zip'];
-            echo "<script type='text/javascript'>document.location.replace('http://localhost/E-commerce/');</script>";
+            echo "<script type='text/javascript'>document.location.replace('http://localhost/lensshop/');</script>";
     
         }else {
             echo "<h1> erreur de connxion</h1>";
@@ -123,7 +123,7 @@ public function updateprofil(){
 		$_SESSION['lastname'] = $newnom;
 		$insertnom = $a->prepare("UPDATE compte SET lastName = ? WHERE idCompte  = ?");
 		$insertnom->execute(array($newnom, $_SESSION['idCompte']));
-        echo "<script type='text/javascript'>document.location.replace('http://localhost/E-commerce/home/profil');</script>";
+        echo "<script type='text/javascript'>document.location.replace('http://localhost/lensshop/home/profil');</script>";
 		
 
     }
@@ -135,7 +135,7 @@ public function updateprofil(){
 		$_SESSION['firstname'] = $newprenom;
 		$insertprenom = $a->prepare("UPDATE compte SET firstName = ? WHERE idCompte  = ?");
 		$insertprenom->execute(array($newprenom, $_SESSION['idCompte']));
-        echo "<script type='text/javascript'>document.location.replace('http://localhost/E-commerce/home/profil');</script>";
+        echo "<script type='text/javascript'>document.location.replace('http://localhost/lensshop/home/profil');</script>";
 
     }
     // mise a jour du adresse si l utilisateur la modifier
@@ -146,7 +146,7 @@ public function updateprofil(){
 		$_SESSION['adresse'] = $newaddress;
 		$insertaddress = $a->prepare("UPDATE compte SET adresse = ? WHERE idCompte  = ?");
 		$insertaddress->execute(array($newaddress, $_SESSION['idCompte']));
-        echo "<script type='text/javascript'>document.location.replace('http://localhost/E-commerce/home/profil');</script>";
+        echo "<script type='text/javascript'>document.location.replace('http://localhost/lensshop/home/profil');</script>";
 
     }
     // mise a jour du country si l utilisateur la modifier
@@ -157,7 +157,7 @@ public function updateprofil(){
 		$_SESSION['country'] = $newcountry;
 		$insertcountry = $a->prepare("UPDATE compte SET country = ? WHERE idCompte  = ?");
 		$insertcountry->execute(array($newcountry, $_SESSION['idCompte']));
-        echo "<script type='text/javascript'>document.location.replace('http://localhost/E-commerce/home/profil');</script>";
+        echo "<script type='text/javascript'>document.location.replace('http://localhost/lensshop/home/profil');</script>";
 
     }
     // mise a jour du lang si l utilisateur la modifier
@@ -168,7 +168,7 @@ public function updateprofil(){
 		$_SESSION['lang'] = $newlang;
 		$insertlang = $a->prepare("UPDATE compte SET lang = ? WHERE idCompte  = ?");
 		$insertlang->execute(array($newlang, $_SESSION['idCompte']));
-        echo "<script type='text/javascript'>document.location.replace('http://localhost/E-commerce/home/profil');</script>";
+        echo "<script type='text/javascript'>document.location.replace('http://localhost/lensshop/home/profil');</script>";
 
     }
     // mise a jour du zip si l utilisateur la modifier
@@ -179,7 +179,7 @@ public function updateprofil(){
 		$_SESSION['zip'] = $newzip;
 		$insertzip = $a->prepare("UPDATE compte SET zip = ? WHERE idCompte  = ?");
 		$insertzip->execute(array($newzip, $_SESSION['idCompte']));
-        echo "<script type='text/javascript'>document.location.replace('http://localhost/E-commerce/home/profil');</script>";
+        echo "<script type='text/javascript'>document.location.replace('http://localhost/lensshop/home/profil');</script>";
 
 	}
     

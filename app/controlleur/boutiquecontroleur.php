@@ -17,6 +17,17 @@ class boutique extends Controller
     }
 
     //partis camera 
+    public function Camera()
+    {
+
+        $this->loadModel('articlemodel');
+
+        $article = $this->articlemodel->getcamera();
+        $article2 = $this->articlemodel->getCamescopes();
+
+        $this->render('camescopes', compact('article', 'article2'));
+
+    }
 
     public function lire()
     {

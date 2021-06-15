@@ -57,10 +57,10 @@
         <div ng-if="headerCtrl.isLoggedIn()"
             class="header-content site-padding-l-r ng-scope layout-align-space-between-center layout-row" layout="row"
             layout-align="space-between center" style="">
-            <a class="gcid-logo" href="http://localhost/E-commerce">
+            <a class="gcid-logo" href="http://localhost/lensshop">
                 <img src="../public\assets\img\logoenrouge.png"></a>
             <gcid-sign-out class="ng-isolate-scope">
-                <a class="gcid-sign-out-button ng-binding ng-scope" href="http://localhost/E-commerce/home/deconnxion">
+                <a class="gcid-sign-out-button ng-binding ng-scope" href="http://localhost/lensshop/home/deconnxion">
                     Déconnexion </a>
             </gcid-sign-out>
         </div>
@@ -137,7 +137,7 @@
                                                 class="account-text-margin core-text-content italic core-text-color-optional-grey ng-binding ng-scope">
                                                 <?=$_SESSION['zip']?></p>
                                         </div>
-                                        <div> <a href="http://localhost/E-commerce/update/profile" id="editButton"
+                                        <div> <a href="http://localhost/lensshop/update/profile" id="editButton"
                                                 ng-click="$ctrl.toggleState()"
                                                 class="core-text-small core-text-color-blue gcid-link edit-button ng-binding">Éditer</a>
                                         </div>
