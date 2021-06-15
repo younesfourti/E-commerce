@@ -32,7 +32,7 @@
         <!-- LA BANNIERE-->
         <section class="boutiqueBaniere">
         <header >
-    <?php include_once 'app\Views\navtohome.php';?>
+    <?php include_once 'app\Views\bugNum3.php';?>
     </header>
 
             <div class="position-relative overflow-hidden p-1 p-md-1 m-md-1 text-center">
@@ -61,7 +61,7 @@
 
 
         <!-- moiiiii -->
-        <FORM method="POST" action = "http://localhost/E-commerce/boutique/categ">
+        <FORM method="POST" action = "http://localhost/lensshop/boutique/categCamescopes">
         <div class="tableau">
             <button type="submit" class="btn btn-outline-secondary ">TRIER PAR : </button>
             <fieldset>
@@ -82,7 +82,7 @@
             </fieldset>
 
             <fieldset>
-                <legend>Meilleur pour</legend>
+                <legend>Environnement </legend>
                 <p>
                     <input type="radio" name="GATG" id="red" value="Paysage">
                     <label for="red">Paysage</label>
@@ -133,14 +133,15 @@
         <!-- change -->
 
         <!-- CATEGORIE APPAREIL -->
-        <div class="emplacementappareilphoto">
+        <div class="emplacementappareilphoto"style="height:0px;">
 
         
             <section class="container-fluid">
-                <h1 class="TitreSection">RECHERCHER PAR TYPE D'APPAREIL PHOTO</h1>
-                <article style="position:relative;left:260px;width: 1500px;"class="container sliderarticle row">
+                <h1 class="TitreSection">RECHERCHER PAR TYPE De camescopes</h1>
+                <article style="position:relative;left: 12%;width: 100%;"class="container sliderarticle row">
                      <?php  foreach($article as $article): ?>
-                                <a href="http://localhost/E-commerce/boutique/lire/<?= $article['idarticle']?>" class="divproduit">
+                     
+                                <a href="http://localhost/lensshop/boutique/lireCamescopes/<?= $article['idarticle']?>" class="divproduit "style="position:relative; margin:15px;">
                                     <img class="imgproduit" src="<?=$article['photo']?>">
                                     <h2 class="titreproduit"> <?= $article['titre'] ?></h2>
                                     <p class="stockBoutique">En stock</p>
@@ -155,62 +156,11 @@
 
        
 
-        <div style="position:relative;top:-1000px;"class="newletter container-fluid">
+       
 
-            <div class="row d-flex justify-content-center divnews align-items-center">
+       
 
-                <p class="col-3 ">
-                    INSCRIVEZ-VOUS POUR RECEVOIR LES NOUVELLES ET UNE REMISE DE 15 %
-                </p>
-                <div class="col-2">
-                    <a href="">S'INSCIRE A LA NEW LETTER</a>
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <footer class="pt-4 my-md-5 pt-md-5 border-top">
-        <div class="row">
-            <div class="col-12 col-md">
-                <img class="mb-2" src="../public\assets\img\logo-rougepointpetits-0blanc.jpg"
-                    style="position: relative;top:-20px; width=" 225" height="225">
-                <small class="d-block mb-3 text-muted" style="position: relative;top:-20px;left:60px;">2020-2020</small>
-            </div>
-            <div class="col-6 col-md">
-                <h5>Features</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Cool stuff</a></li>
-                    <li><a class="text-muted" href="#">Random feature</a></li>
-                    <li><a class="text-muted" href="#">Team feature</a></li>
-                    <li><a class="text-muted" href="#">Stuff for developers</a></li>
-                    <li><a class="text-muted" href="#">Another one</a></li>
-                    <li><a class="text-muted" href="#">Last time</a></li>
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                <h5>Resources</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Resource</a></li>
-                    <li><a class="text-muted" href="#">Resource name</a></li>
-                    <li><a class="text-muted" href="#">Another resource</a></li>
-                    <li><a class="text-muted" href="#">Final resource</a></li>
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                <h5>About</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Team</a></li>
-                    <li><a class="text-muted" href="#">Locations</a></li>
-                    <li><a class="text-muted" href="#">Privacy</a></li>
-                    <li><a class="text-muted" href="#">Terms</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-
-    </div>
+    
 </body>
 
 </html>

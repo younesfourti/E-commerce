@@ -41,10 +41,10 @@
 
             </div>
             <div class="col-4 text-center">
-                <p style=color:white;font-size:30px;>LensShop</p>
+                <p style=color:BLACK;font-size:30px;>LensShop</p>
                
             </div>
-            <img class="imgnav" src="public\assets\img\logo2.jpg" alt="" width="50" height="50" >
+            <img class="imgnav" src="../../public\assets\img\logo-rougepointpetits-0blanc.jpg" alt="" width="70" height="70">
             <div class="col-4 d-flex justify-content-end align-items-center">
 
                
@@ -52,15 +52,15 @@
                     <?php
                   if(isset($_SESSION['idCompte'])) {
                   ?>
-                  <img src="public\assets\profillogo.png" style='float : right;
+                  <img src="../../public\assets\profillogo.png" style='float : right;
     width : 40px; height: 40px;'>
                 <a class="btn btn-sm btn-outline-secondary"
-                    href="http://localhost/lensshop/home/profil">Bonjour <?= $_SESSION['firstname'], " ",   $_SESSION['lastname']; ?></a>
+                    href="http://localhost/lensshop/home/profil"> Bonjour <?= $_SESSION['firstname'], " ",   $_SESSION['lastname']; ?></a>
                     <?php
                         } else {
                         ?>
                               <a class="btn btn-sm btn-outline-secondary"
-                    href="http://localhost/lensshop/home/connection">connection</a>n 
+                    href="http://localhost/lensshop/home/connection">connection</a>
                         <?php
                         }
                         ?>
